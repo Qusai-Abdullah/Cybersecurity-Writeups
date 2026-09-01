@@ -1,135 +1,156 @@
-# 🛡️ Cybersecurity Portfolio
+<div align="center">
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Cybersecurity-Portfolio-111827?style=for-the-badge&logo=hackthebox&logoColor=white" />
-  <img src="https://img.shields.io/badge/SOC-Blue%20Team-2563EB?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Linux-Black?style=for-the-badge&logo=linux&logoColor=white" />
-</p>
+# 🛡️ CYBERSECURITY PORTFOLIO
 
-<p align="center">
-  <b>Cybersecurity Student | SOC | Network Security | Digital Forensics</b>
-</p>
+### SOC • BLUE TEAM • NETWORK SECURITY • DFIR
+
+<br>
+
+[![SOC](https://img.shields.io/badge/SOC-Operations-111827?style=for-the-badge)](#)
+[![DFIR](https://img.shields.io/badge/Digital-Forensics-1f2937?style=for-the-badge)](#)
+[![Network Security](https://img.shields.io/badge/Network-Security-374151?style=for-the-badge)](#)
+
+<br>
+
+**Investigate · Detect · Understand · Defend**
+
+</div>
 
 ---
 
-## 👋 About This Repository
+## 👋 About
 
-Welcome to my cybersecurity portfolio.
+Cybersecurity student building practical experience through
+security labs, investigations, technical research, and hands-on projects.
 
-This repository documents my hands-on journey in cybersecurity through
-technical write-ups, labs, investigations, security projects, and practical
-experimentation.
-
-The goal is simple:
-
-> Learn → Practice → Investigate → Document → Improve
+This repository is my **technical knowledge base and cybersecurity portfolio**.
 
 ---
 
 ## 🎯 Focus Areas
 
-| Area | Focus |
-|---|---|
-| 🛡️ SOC | Monitoring, Detection & Incident Analysis |
-| 🌐 Network Security | Firewalls, VPNs, IDS/IPS & Networking |
-| 🔎 Digital Forensics | Windows Artifacts & Registry Analysis |
-| 🧪 Web Security | OWASP, Burp Suite & Web Vulnerabilities |
-| 📊 SIEM | Splunk, Log Analysis & Detection |
-| 🖥️ Active Directory | Windows Domain & Security |
-| 🧠 Threat Intelligence | IOC Analysis & Threat Research |
+| 🛡️ SOC & Blue Team    | 🌐 Network Security |
+| :--------------------- | :------------------ |
+| SIEM & Log Analysis    | Firewalls           |
+| Threat Hunting         | IDS / IPS           |
+| Detection Engineering  | VPN                 |
+| Incident Investigation | Packet Analysis     |
+
+| 🔎 Digital Forensics | 🧠 Threat Intelligence |
+| :------------------- | :--------------------- |
+| Windows Registry     | MITRE ATT&CK           |
+| Windows Artifacts    | APT Research           |
+| NTFS                 | IOC Analysis           |
+| Evidence Analysis    | TTP Mapping            |
 
 ---
 
-# ⭐ Featured Write-ups
+# ⭐ Featured Work
 
-### 🔥 TryHackMe
+> Selected investigations and hands-on security projects.
 
-- [Volt Typhoon](TryHackMe/Volt-Typhoon.md)
-- [Blue](TryHackMe/Blue.md)
+### 🔴 Threat Intelligence
 
-### 🛡️ SOC & Detection
+**[Volt Typhoon Analysis](Threat-Intelligence/Volt-Typhoon.md)**
+APT research · TTP analysis · MITRE ATT&CK
 
-- [Splunk Investigations](SOC/Splunk.md)
-- [Suricata Analysis](SOC/Suricata.md)
-- [Wazuh](SOC/Wazuh.md)
+### 🔵 SOC / SIEM
 
-### 🔎 Digital Forensics
+**[Splunk Investigations](SOC/Splunk.md)**
+Log analysis · SPL · Security monitoring
 
-- [Windows Registry](Forensics/Windows-Registry.md)
-- [ShimCache Analysis](Forensics/ShimCache.md)
+### 🟠 Network Security
 
-### 🌐 Network Security
+**[Suricata Detection Lab](SOC/Suricata.md)**
+IDS · Network traffic · Alert analysis
 
-- [pfSense](Networking/pfSense.md)
-- [VPN Architecture](Networking/VPN.md)
+### 🟣 Digital Forensics
 
----
-
-# 🧰 Tools & Technologies
-
-### Security
-
-`Wireshark` `Nmap` `Burp Suite` `Metasploit`
-
-### SIEM / Detection
-
-`Splunk` `Wazuh` `Suricata` `Sysmon`
-
-### Networking
-
-`pfSense` `Cisco` `OpenVPN` `OSPF`
-
-### Digital Forensics
-
-`Registry Explorer` `KAPE` `AmcacheParser`
-
-### Operating Systems
-
-`Kali Linux` `Windows` `Linux`
+**[Windows Registry Analysis](Forensics/Windows-Registry.md)**
+Registry artifacts · Investigation · DFIR
 
 ---
 
-# 🧪 Hands-on Labs
+# 🧰 Security Stack
 
-| Platform | Focus |
-|---|---|
-| TryHackMe | Cybersecurity Labs & Write-ups |
-| Hack The Box | Practical Security |
-| CyberDefenders | SOC & DFIR |
-| Cisco Packet Tracer | Networking |
+**SIEM**
+
+`Splunk` `Wazuh`
+
+**Network Security**
+
+`Wireshark` `Suricata` `pfSense` `Cisco`
+
+**Security Tools**
+
+`Nmap` `Burp Suite` `Metasploit`
+
+**Forensics**
+
+`KAPE` `Registry Explorer` `Amcache`
+
+**Operating Systems**
+
+`Linux` `Kali Linux` `Windows`
 
 ---
 
-# 📚 Knowledge Base
+# 🧪 Home Lab
 
 ```text
-Cybersecurity
-│
-├── SOC
-│   ├── SIEM
-│   ├── Log Analysis
-│   ├── Detection Engineering
-│   └── Incident Response
-│
-├── Network Security
-│   ├── Firewalls
-│   ├── IDS / IPS
-│   ├── VPN
-│   └── Cisco
-│
-├── Digital Forensics
-│   ├── Windows Registry
-│   ├── NTFS
-│   ├── Amcache
-│   └── ShimCache
-│
-├── Web Security
-│   ├── OWASP
-│   ├── XSS
-│   ├── SQL Injection
-│   └── CSRF
-│
-└── Threat Intelligence
-    ├── IOC
-    ├── MITRE ATT&CK
-    └── Threat Research
+             INTERNET
+                 │
+                 ▼
+            ┌─────────┐
+            │ pfSense │
+            └────┬────┘
+                 │
+        ┌────────┴────────┐
+        ▼                 ▼
+   Windows / AD       Kali Linux
+        │
+        ▼
+      Sysmon
+        │
+        ▼
+      Wazuh
+        │
+        ▼
+    Suricata
+        │
+        ▼
+      Splunk
+```
+
+A practical environment for learning **network security,
+SOC operations, monitoring, detection, and investigation**.
+
+---
+
+# 📚 Write-ups
+
+| Category               | Explore                                 |
+| :--------------------- | :-------------------------------------- |
+| 🛡️ SOC                | [View Write-ups →](SOC/)                |
+| 🌐 Network Security    | [View Write-ups →](Network/)            |
+| 🔎 Digital Forensics   | [View Write-ups →](Forensics/)          |
+| 🧠 Threat Intelligence | [View Research →](Threat-Intelligence/) |
+| ⚔️ Web Security        | [View Write-ups →](Web/)                |
+
+---
+
+## 🚀 Currently Learning
+
+`SOC Operations` · `Detection Engineering` · `DFIR` · `Windows Security` · `Threat Intelligence`
+
+---
+
+<div align="center">
+
+### **Learn. Investigate. Document. Defend.**
+
+<br>
+
+[![GitHub](https://img.shields.io/badge/GitHub-111827?style=for-the-badge\&logo=github\&logoColor=white)](https://github.com/YOUR_USERNAME)
+
+</div>
