@@ -1,0 +1,14 @@
+{
+	"id": "markdown-mason",
+	"name": "Markdown Mason",
+	"version": "0.6.2",
+	"minAppVersion": "1.7.2",
+	"description": "Reshape pasted or whole-note Markdown to fit a note's structure — heading cascade, footnote renumbering and dedup — plus a runnable, consent-gated script library.",
+	"author": "Marcus Breiden",
+	"authorUrl": "https://www.mmomm.org",
+	"isDesktopOnly": true,
+	"fundingUrl": {
+		"Buy Me a Coffee": "https://ko-fi.com/mmomm",
+		"GitHub Sponsor": "https://github.com/sponsors/MMoMM-org"
+	}
+}

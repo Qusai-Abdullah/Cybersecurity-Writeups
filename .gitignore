@@ -1,0 +1,21 @@
+# Obsidian temporary workspace
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache/
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+# Temporary files
+*.tmp
+*.temp
+
+# Secrets
+.env
+.env.*
+*.pem
+*.key

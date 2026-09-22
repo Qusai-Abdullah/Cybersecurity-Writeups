@@ -1,0 +1,20 @@
+{
+  "debugLogging": false,
+  "resourcesName": "## Resources",
+  "numericOnly": true,
+  "showUpdateSplash": true,
+  "lastSeenVersion": "0.6.2",
+  "formatSelection": {
+    "cascade": true,
+    "normalize": true,
+    "fromCitations": true,
+    "identity": true,
+    "move": true,
+    "dewrap": true,
+    "dehyphenate": true,
+    "decomposeLigatures": true,
+    "tidyWhitespace": true,
+    "normalizeBullets": true,
+    "normalizeOrdered": true
+  }
+}
