@@ -142,6 +142,8 @@ done
 7. (Get-Content .gitignore)
 8. <mark style="background: #FF5582A6;">(git add .)</mark>
 9. <mark style="background: #FF5582A6;">(git status)</mark>
+10. <mark style="background: #FF5582A6;">(git commit -m "Initial commit - Obsidian Vault")</mark>
+11. 
 
 
 

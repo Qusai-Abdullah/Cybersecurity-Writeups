@@ -1,12 +1,5 @@
 
 
-
-
-
-
-
-
-
 Sysmon64.exe -accepteula -i  >>     -i for Install   
  ![](Attachments/Pasted%20image%2020260907135636.png)
 

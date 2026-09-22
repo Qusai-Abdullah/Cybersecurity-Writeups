@@ -266,7 +266,146 @@ Format-List   → Detailed display
 ```
 
 
+___
+___
+## Function  Lesson (6)
 
+```
+function Get-SystemInfo {
+    Get-Date
+    Get-Process
+    Get-Service
+    than 
+    Get-SystemInfo
+}
+```
+
+PS C:\Users\HP> function hello{Write-Host "peace on you "}
+PS C:\Users\HP> hello
+peace on you
+PS C:\Users\HP>
+
+
+```
+function Add-Numbers {
+    param(
+        [int]$A,
+        [int]$B
+    )
+
+    $A + $B
+}
+```
+
+```
+function usage {Get-Process |Where-Object cpu -gt 100}     *usefull*
+```
+
+
+
+###  Function with Cybersecurity Job
+
+```
+function Check-User {
+    param(
+        [Parameter(Mandatory)]
+        [string]$Username
+    )
+
+    Get-ADUser -Identity $Username -Properties Enabled,LastLogonDate
+    
+    
+    than 
+    Check-User -Username Sarah
+}
+```
+
+## PROFILE  Lesson (7) <mark style="background: #FF5582A6;">>>>>>>>>>>>>>>>>>>></mark>
+if you want save the function for all time you  can use  *$PROFILE*
+![](Attachments/Pasted%20image%2020260922230141.png)
+
+## what is the Profile ?
+1. Any file where you put things that you want to have ready for you whenever you open PowerShell.
+
+EX :
+```
+Aliases:
+       Set-Alias ll Get-ChildItem
+       Set-Alias grep Select-String
+       
+       Than 
+        use ll
+```
+ 2.  if you want make any function 
+	```
+	function myproject {
+    Set-Location "C:\Users\Qusai\Projects"
+    
+    Than :
+    use myproject
+}
+	```
+
+2. for create this file if it not exist >> New-Item -Path $PROFILE -ItemType File -Force
+   ``` 
+   PS C:\Users\HP> Test-Path $PROFILE
+True
+PS C:\Users\HP>
+   ```
+![](Attachments/Pasted%20image%2020260922234602.png)
+3. ![](Attachments/Pasted%20image%2020260922234643.png)
+4.  Another EX :
+    ![](Attachments/Pasted%20image%2020260922235837.png)
+    ![](Attachments/Pasted%20image%2020260922235858.png)
+
+
+##  A useful example for you as a cybersecurity student. <mark style="background: #FF5582A6;">>>>>>>>>>>>>>>>>></mark>
+```
+function lab {
+    Set-Location "C:\CyberLab"
+}
+
+function procs {
+    Get-Process |
+        Sort-Object CPU -Descending |
+        Select-Object -First 10 Name, Id, CPU
+}
+
+function ports {
+    Get-NetTCPConnection |
+        Where-Object State -eq "Listen" |
+        Select-Object LocalAddress, LocalPort, OwningProcess
+}
+
+than you can use any one of command when you enter into Powershell 
+1. ports
+2. lab 
+3. procs
+```
+
+
+___
+___
+___
+## Error Handling Lesson (8)
+####  1. Error 
+$Error >> it save the session error
+$Error[0] >> to display the last error 
+$Error.Count >> to know number of errers
+#### 2. ErrorAction 
+```
+Get-Item C:\NotExist.txt -ErrorAction SilentlyContinue
+```
+Execute the command, and if an error occurs, do not display it to the user.
+
+```
+try {
+    Get-Item C:\NotExist.txt -ErrorAction Stop
+}
+catch {
+    Write-Host "An error occurred"
+}
+```
 
 
 
@@ -344,3 +483,11 @@ ___
 
 لتاكيد  ال poowershell  in windows10  64
 Enter-PSSession -ComputerName 192.168.10.10 -ConfigurationName CYNUserAccess -Credential CNDV2\sarah
+
+
+
+## useful commands
+1.  winget Search "file.exe"
+2.  winget search
+3. scoop update *  >> Update all installed software with a single command:
+4. foreach($p in $process ){if ($p.cpu -gt 100){Write-Host $p.cpu , $p.id}}
