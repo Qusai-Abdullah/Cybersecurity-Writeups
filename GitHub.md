@@ -142,11 +142,17 @@ done
 7. (Get-Content .gitignore)
 8. <mark style="background: #FF5582A6;">(git add .)</mark>
 9. <mark style="background: #FF5582A6;">(git status)</mark>
-10. <mark style="background: #FF5582A6;">(git commit -m "Initial commit - Obsidian Vault")</mark>
-11. 
+10. <mark style="background: #FF5582A6;">(git commit -m "Initial commit - Obsidian Vault")</mark> 
+11. (git status) if its display >>nothing to commit, working tree clean  that's mean
+(everything is stored locally in Git.)
+12.  check 
+to know the remoteName >> git remote -v 
+to know the BranchName >> git branch 
 
 
-
+git remote add origin https://github.com/Qusai-Abdullah/Cybersecurity-Writeups.git
+ git remote -v
+ git branch -M main
 
 
 
