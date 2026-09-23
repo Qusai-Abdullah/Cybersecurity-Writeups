@@ -148,11 +148,7 @@ done
 12.  check 
 to know the remoteName >> git remote -v 
 to know the BranchName >> git branch 
-
-
-git remote add origin https://github.com/Qusai-Abdullah/Cybersecurity-Writeups.git
- git remote -v
- git branch -M main
+13. <mark style="background: #FF5582A6;">git push -u origin main</mark>
 
 
 
@@ -160,3 +156,10 @@ git remote add origin https://github.com/Qusai-Abdullah/Cybersecurity-Writeups.g
 ```
 git add GitHub.md
 ```
+
+
+
+git remote add origin https://github.com/Qusai-Abdullah/Cybersecurity-Writeups.git
+ git remote -v
+ git branch -M main
+
