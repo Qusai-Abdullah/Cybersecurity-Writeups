@@ -99,57 +99,6 @@ Understanding Windows from both a security and operating-system perspective.
 
 ---
 
-# 🔬 Security Lab
-
-The practical environment connects endpoint and network telemetry into security monitoring and investigation workflows.
-
-```text
-                    ┌──────────────┐
-                    │   Network    │
-                    │   Traffic    │
-                    └──────┬───────┘
-                           │
-                  ┌────────┴────────┐
-                  │                 │
-              Suricata            Zeek
-                  │                 │
-                  └────────┬────────┘
-                           │
-                           ▼
-                    Security Events
-                           │
-                           ▼
-                    ┌──────────────┐
-                    │    SIEM      │
-                    │ Splunk/Wazuh │
-                    └──────┬───────┘
-                           │
-                           ▼
-                    Investigation
-                           │
-                           ▼
-                     Detection
-```
-
-Endpoint telemetry follows a similar workflow:
-
-```text
-Windows Endpoint
-      │
-      ├── Windows Event Logs
-      └── Sysmon
-             │
-             ▼
-           Wazuh
-             │
-             ▼
-           Splunk
-             │
-             ▼
-      Hunt / Detection
-```
-
----
 
 # 🎯 Core Skills
 
@@ -168,33 +117,7 @@ Windows Endpoint
 
 ---
 
-# 🗺️ Learning Path
 
-```text
-Windows Fundamentals
-        ↓
-Windows Security
-        ↓
-PowerShell
-        ↓
-Windows Internals
-        ↓
-Networking
-        ↓
-Network Security
-        ↓
-SIEM & Log Analysis
-        ↓
-SOC Operations
-        ↓
-Detection Engineering
-        ↓
-DFIR
-        ↓
-Security Automation
-```
-
----
 
 # 📈 Roadmap
 
